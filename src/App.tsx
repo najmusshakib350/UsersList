@@ -28,18 +28,18 @@ const router = createBrowserRouter([
     element: <PrivateRoutes />,
     children: [
       {
-        path: "users",
-        element: (
-          <Layout>
-            <Users />
-          </Layout>
-        ),
-      },
-      {
         path: "dashboard",
         element: (
           <Layout>
             <Dashboard />
+          </Layout>
+        ),
+      },
+      {
+        path: "users",
+        element: (
+          <Layout>
+            <Users />
           </Layout>
         ),
       },
