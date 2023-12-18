@@ -4,7 +4,7 @@ import settingsImg from "./../../assets/header/settings.png";
 import bellImg from "./../../assets/header/bell.png";
 import userImg from "./../../assets/header/user.png";
 import { NavLink } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 
