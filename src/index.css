@@ -2,44 +2,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .custom-checkbox {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .checkbox-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+  }
+}
 
 /* custom checkbox css code */
-.custom-checkbox {
-  display: inline-block;
-  cursor: pointer;
-}
 
-.checkbox-input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
 .custom-checkbox .checkbox-input:checked + .checkmark {
   border-color: #7f56d9;
 }
-
-.checkmark {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 20px;
-  width: 20px;
-  background-color: #fff;
-  border-radius: 6px;
-  border: 1px solid #d0d5dd;
-}
-
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
-
 .custom-checkbox .checkbox-input:checked + .checkmark:after {
   display: block;
 }
-
 .checkmark:after {
   left: 7px;
   top: 3px;

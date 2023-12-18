@@ -75,14 +75,16 @@ const Users = () => {
   return (
     <div className="container mx-auto ">
       <div className="flex justify-between mt-8">
-        <h1 className="text-[#101828] font-Inter text-2xl font-[500]">Users</h1>
+        <h1 className="text-[#101828] font-Inter font-[500] text-lg  md:text-2xl ">
+          Users
+        </h1>
         <div className="flex  gap-3">
           <Upload />
           <Adduser />
         </div>
       </div>
-      <div className=" rounded-lg overflow-hidden bg-white border border-[#EAECF0] shadow mt-8">
-        <table className="w-full ">
+      <div className="rounded-lg overflow-auto xl:overflow-hidden bg-white border border-[#EAECF0] shadow mt-8">
+        <table className="min-w-[1000px] xl:w-full">
           <thead>
             <tr className="bg-[#F9FAFB] border-b border-[#EAECF0] px-6">
               <th className="relative py-3 w-12">
