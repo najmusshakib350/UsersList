@@ -75,14 +75,14 @@ const Form = () => {
     }
   }
   return (
-    <div className="shadow-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-[62px] py-[63px] rounded-2xl border border-[#EEE]">
+    <div className="w-[90%] mx-auto md:mx-0 md:w-[444px] shadow-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-7  md:px-[62px] py-7  md:py-[63px] rounded-2xl border border-[#EEE]">
       <div className="flex gap-3 items-center mb-4">
         <img src={stackImage} alt="stack image" />
-        <h1 className="text-[#4E5D78] font-Inter font-bold text-[28px]">
+        <h1 className="text-[#4E5D78] font-Inter font-bold text-[20px] sm:text-[24px]  md:text-[28px]">
           Stack
         </h1>
       </div>
-      <h5 className="text-[#404040] font-Inter font-semibold text-[20px] mb-8">
+      <h5 className="text-[#404040] font-Inter font-semibold text-base sm:text-lg  md:text-[20px] mb-8">
         Sign In to continue with Stack
       </h5>
       <p className="text-[#F04438] font-Inter font-normal text-[14px] mb-2">

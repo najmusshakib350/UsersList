@@ -174,7 +174,7 @@ const Users = () => {
                   </p>
                 </td>
                 <td className="cursor-pointer px-3 py-3 text-left ">
-                  <span className="text-[#667085] font-Inter text-xs font-[500]">
+                  <span className="text-[#027A48] font-Inter text-xs font-[500] bg-[#ECFDF3] py-2 px-4 rounded-[16px]">
                     Random Sticker Label
                   </span>
                 </td>
